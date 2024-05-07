@@ -10,7 +10,7 @@ def watch_stream():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--mute-audio")  # Mutes the stream
 
-    service = Service(executable_path=r'/usr/local/bin/chromedriver')
+    service = Service(executable_path=r'chromedriver')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
     driver.get("https://www.twitch.tv/angelito20163")
