@@ -2,8 +2,8 @@ name: Watch Twitch Stream
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 * * * *'  # Runs every hour, adjust to your needs
+  #schedule:
+    #- cron: '0 * * * *'  # Runs every hour, adjust to your needs
 
 jobs:
   setup-and-run:
