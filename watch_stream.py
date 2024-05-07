@@ -13,7 +13,7 @@ def watch_stream():
     service = Service(executable_path=r'chromedriver')
     driver = webdriver.Chrome(service=service, options=chrome_options)
 
-    driver.get("https://www.twitch.tv/angelito20163")
+    driver.get("https://www.twitch.tv/gamerquest")
     print("Title of the page:", driver.title)
     time.sleep(300)  # Wait for 5 minutes (300 seconds)
     print("Title of the page:", driver.title)
